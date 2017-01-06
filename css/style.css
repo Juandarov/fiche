@@ -1,0 +1,19 @@
+    h1{color: black;
+        text-align: center;
+        font-family: ITC Serif Gothic;}
+
+    body{
+        background-image: url("https://assets.entrepreneur.com/content/3x2/1300/20151103175631-star-wars-darth-vader-light-sabor-movie-villian.jpeg");
+    }
+
+    a{
+        color: blue;
+    }
+
+        label{
+            color: #43b128;
+        }
+
+    li {
+        color:black;
+    }
