@@ -1,45 +1,48 @@
-    h1{color: white;
-        text-align: center;
-        font-family: urw chancery l;
-        font-size: 4em;
-        text-shadow: 5px 4px black;
-        }
-
-    body{
-        padding: 5%;
-        display: block;
-        background-image: url("https://assets.entrepreneur.com/content/3x2/1300/20151103175631-star-wars-darth-vader-light-sabor-movie-villian.jpeg");
-        background-size: auto;
-        background-attachment: fixed;
+h1{color: white;
+    text-align: center;
+    font-family: urw chancery l;
+    font-size: 4em;
+    text-shadow: 5px 4px black;
     }
 
-    a{
-        color: solid blue;
-        font-size: 2em;
-        text-shadow: 3px 2px red;
+    nav {
+      float: left;
+    }
+    
+body{
+    padding: 5%;
+    display: block;
+    background-image: url("https://assets.entrepreneur.com/content/3x2/1300/20151103175631-star-wars-darth-vader-light-sabor-movie-villian.jpeg");
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+
+    label{
+        color: black;
     }
 
-        label{
-            color: black;
-        }
-
-        p{
-            position: static;
-            font-style: italic;
-            width: 10em;
-            border: 5px solid grey;
-        }
-
-    li {
-    background-color: lightgrey;
-    width: 300px;
-    border: 15px solid green;
-    padding: 25px;
-    margin: 15px;
-        color:black;
+    p{
+        position: static;
+        font-style: italic;
+        width: 10em;
+        border: 5px solid grey;
     }
 
-    form{
-        color: green;
-        font-size: 2em;
-    }
+main li{
+background-color: lightgrey;
+width: 300px;
+border: 15px solid green;
+padding: 25px;
+margin: 15px;
+    color:black;
+}
+
+form{
+    color: green;
+    font-size: 2em;
+}
+
+header{
+  float: right;
+}
