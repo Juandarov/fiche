@@ -4,6 +4,11 @@
             <title>Ma Super Page</title>
             <link rel="stylesheet" href= "./css/style.css" >
             <meta charset="utf-8">
+
+            <audio controls>
+             <source src="./css/StarWars.mp3" type="audio/ogg">
+            Your browser does not support the audio element.
+            </audio>
     </head>
       <header>
         <nav>
@@ -15,8 +20,8 @@
         </nav>
       </header>
         <body>
+          <main>
                 <h1>THE DARK SIDE</h1>
-                  <main>
                     <ul>
                         <p>"Robuste je suis grâce à la Force, mais pas à ce point là. Le crépuscule m'envahi et bientôt, la nuit va tomber. Humm. Ainsi vont les choses. Ainsi va la Force."</p>
                         <img src="http://www.sideshowtoy.com/photo.php?sku=400302" alt="Yoda" style="width:228px;height:200px;">
@@ -24,12 +29,23 @@
                         <li><label>Prenom:</label> JUAN DAVID</li>
                         <li><label>Adresse:</label> AVEC MAITRE YODA DANS UNE GROTTE</li>
                     </ul>
-                  </main>
                 <form>
-                     Nom Jedi:<br>
-                     <input type="text" name="Nom Jedi"><br>
-                     No Galaxy:<br>
-                     <input type="text" name="No Galaxy">
+                  <section id ="contacts">
+                    <h2>contacts</h2>
+                      <form action="http://live.condincamp.fr/mail.php" method="post">
+                        <fieldset>
+                          <legend>Vos Infos</legend>
+
+                          <label>Nom:</label>
+                          <input type="text" name="" value="">
+
+                          <label>Prenom:</label>
+                          <input type="text" name="" value="">
+
+                          <label>Age:</label>
+                          <input type="text" name="" value="">
+                  </section>
                 </form>
+              </main>
         </body>
 </html>
